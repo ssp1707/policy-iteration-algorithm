@@ -1,4 +1,8 @@
-## POLICY ITERATION ALGORITHM
+### Ex No:
+### Date:
+
+
+# <p align="center"> POLICY ITERATION ALGORITHM <p>
 
 ## AIM
 To develop a Python program to find the optimal policy for the given MDP using the policy iteration algorithm.
@@ -63,6 +67,10 @@ Here's a step-by-step explanation of the algorithm:
 To summarize, policy iteration iteratively improves the policy by alternating between policy evaluation and policy improvement steps until convergence is reached. The algorithm guarantees to find the optimal policy for the given MDP **P** with a discount factor **gamma**.
 
 ### POLICY IMPROVEMENT FUNCTION
+```
+Developed By: S. Sanjna Priya
+Reg No: 212220230043
+```
 ```py
 def policy_improvement(V, P, gamma=0.9):
     # Initialize a matrix to store action values for each state-action pair
